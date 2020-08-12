@@ -7,7 +7,7 @@ function App() {
   console.log(getCsrfToken())
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="flex flex-col justify-center items-center h-screen text-white text-3xl bg-blue-900">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
